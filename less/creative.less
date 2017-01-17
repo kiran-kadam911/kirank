@@ -359,3 +359,28 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: @gray-darker;
 }
+
+#about {
+    .col-lg-9 {
+        margin: 0 auto;
+        float: none;
+    }    
+}
+
+#services {
+    .container {
+        .service-box {
+            a {
+                &:hover {
+                    text-decoration: none;
+                    h3 {
+                        color: @gray-dark;
+                    }
+                }
+                h3 {
+                    color: @gray-light;
+                }
+            }
+        }
+    }
+}
